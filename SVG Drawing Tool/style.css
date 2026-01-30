@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.toolbar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button, input[type="color"] {
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  background-color: white;
+  border: 2px solid #ccc;
+  width: 100%;
+  max-width: 1000px;
+  height: 70vh;
+  touch-action: none; /* prevent scrolling on touch devices */
+}
